@@ -15,9 +15,9 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path='/homepage' element={<Homepage/>} />
+      <Route path='/' element={<Homepage/>} />
 
-      <Route path='*' element={<Navigate to='/homepage'/>} />
+      <Route path='*' element={<Navigate to='/'/>} />
 
       <Route path='/cadastro' element={<Cadastro/>} />
 
