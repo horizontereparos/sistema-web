@@ -1,0 +1,21 @@
+*{
+    font-family: 'Paytone One', sans-serif;
+}
+
+.pagina-inicial{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.lista-botoes{
+    background-color: transparent;
+    margin: 20px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo-grande-pagina-inicial{
+    margin: 0 auto;
+}

@@ -1,0 +1,35 @@
+import Cadastro from './paginas/cadastro/Cadastro';
+import Homepage from './paginas/homepage/Homepage';
+import Estoque from './paginas/estoque/Estoque';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom"
+import Editar from './paginas/editar/Editar';
+
+
+
+function App() {
+  return (
+    <BrowserRouter>
+    <Routes>
+      <Route path='/homepage' element={<Homepage/>} />
+
+      <Route path='*' element={<Navigate to='/homepage'/>} />
+
+      <Route path='/cadastro' element={<Cadastro/>} />
+
+      <Route path='/estoque' element={<Estoque/>} />
+
+      <Route path='/editar/:id' element={<Editar/>} />
+
+
+    </Routes>
+    </BrowserRouter>
+   
+  );
+}
+
+export default App;
