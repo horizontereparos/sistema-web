@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/sistema-web/static/css/main.df224221.css",
-    "main.js": "/sistema-web/static/js/main.05fa7c9e.js",
+    "main.js": "/sistema-web/static/js/main.e9e5a5cb.js",
     "static/media/horizonte-reparos-logo.png": "/sistema-web/static/media/horizonte-reparos-logo.54d6c081f4bf1a515f17.png",
     "index.html": "/sistema-web/index.html",
     "main.df224221.css.map": "/sistema-web/static/css/main.df224221.css.map",
-    "main.05fa7c9e.js.map": "/sistema-web/static/js/main.05fa7c9e.js.map"
+    "main.e9e5a5cb.js.map": "/sistema-web/static/js/main.e9e5a5cb.js.map"
   },
   "entrypoints": [
     "static/css/main.df224221.css",
-    "static/js/main.05fa7c9e.js"
+    "static/js/main.e9e5a5cb.js"
   ]
 }
