@@ -17,8 +17,6 @@ function App() {
     <Routes>
       <Route path='/' element={<Homepage/>} />
 
-      <Route path='*' element={<Navigate to='/'/>} />
-
       <Route path='/cadastro' element={<Cadastro/>} />
 
       <Route path='/estoque' element={<Estoque/>} />
